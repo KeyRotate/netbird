@@ -202,9 +202,9 @@ require (
 	k8s.io/apimachinery v0.26.2 // indirect
 )
 
-replace github.com/kardianos/service => github.com/keyrotate/service v0.0.0-20230215170314-b923b89432b0
+replace github.com/kardianos/service => github.com/keyrotate/service v0.0.0
 
-replace github.com/getlantern/systray => github.com/keyrotate/systray v0.0.0-20231030152038-ef1ed2a27949
+replace github.com/getlantern/systray => github.com/keyrotate/systray v0.0.0
 
 replace golang.zx2c4.com/wireguard => github.com/keyrotate/pq-wireguard-go v0.0.4
 
