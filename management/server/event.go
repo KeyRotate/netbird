@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/activity"
+	"github.com/keyrotate/netbird/management/server/status"
 )
 
 // GetEvents returns a list of activity events of an account

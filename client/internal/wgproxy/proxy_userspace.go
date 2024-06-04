@@ -7,7 +7,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	nbnet "github.com/netbirdio/netbird/util/net"
+	nbnet "github.com/keyrotate/netbird/util/net"
 )
 
 // WGUserSpaceProxy proxies

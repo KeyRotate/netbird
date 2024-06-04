@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sys/unix"
 
-	fw "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/iface"
+	fw "github.com/keyrotate/netbird/client/firewall/manager"
+	"github.com/keyrotate/netbird/iface"
 )
 
 // iFaceMapper defines subset methods of interface required for manager

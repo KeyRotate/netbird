@@ -16,9 +16,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/yusufpapurcu/wmi"
 
-	"github.com/netbirdio/netbird/client/firewall/uspfilter"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/iface"
+	"github.com/keyrotate/netbird/client/firewall/uspfilter"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/iface"
 )
 
 type MSFT_NetRoute struct {

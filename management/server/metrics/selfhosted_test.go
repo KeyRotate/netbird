@@ -3,12 +3,12 @@ package metrics
 import (
 	"testing"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/group"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/posture"
-	"github.com/netbirdio/netbird/route"
+	nbdns "github.com/keyrotate/netbird/dns"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/group"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/posture"
+	"github.com/keyrotate/netbird/route"
 )
 
 type mockDatasource struct{}

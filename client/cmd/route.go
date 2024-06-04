@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/proto"
 )
 
 var appendFlag bool

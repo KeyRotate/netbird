@@ -10,7 +10,7 @@ import (
 	"github.com/nadoo/ipset"
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
+	firewall "github.com/keyrotate/netbird/client/firewall/manager"
 )
 
 const (

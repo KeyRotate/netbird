@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-version"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 	log "github.com/sirupsen/logrus"
 )
 

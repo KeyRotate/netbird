@@ -11,14 +11,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/internal/routeselector"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/route"
-	nbnet "github.com/netbirdio/netbird/util/net"
-	"github.com/netbirdio/netbird/version"
+	firewall "github.com/keyrotate/netbird/client/firewall/manager"
+	"github.com/keyrotate/netbird/client/internal/listener"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/internal/routeselector"
+	"github.com/keyrotate/netbird/iface"
+	"github.com/keyrotate/netbird/route"
+	nbnet "github.com/keyrotate/netbird/util/net"
+	"github.com/keyrotate/netbird/version"
 )
 
 var defaultv4 = netip.PrefixFrom(netip.IPv4Unspecified(), 0)

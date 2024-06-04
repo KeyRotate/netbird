@@ -12,9 +12,9 @@ import (
 	"github.com/mitchellh/hashstructure/v2"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	nbdns "github.com/netbirdio/netbird/dns"
+	"github.com/keyrotate/netbird/client/internal/listener"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	nbdns "github.com/keyrotate/netbird/dns"
 )
 
 // ReadyListener is a notification mechanism what indicate the server is ready to handle host dns address changes

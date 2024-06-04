@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	log "github.com/sirupsen/logrus"
 
-	nbnet "github.com/netbirdio/netbird/util/net"
+	nbnet "github.com/keyrotate/netbird/util/net"
 )
 
 type ref struct {

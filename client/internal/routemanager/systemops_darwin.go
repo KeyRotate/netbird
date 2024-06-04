@@ -13,8 +13,8 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/iface"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/iface"
 )
 
 var routeManager *RouteManager

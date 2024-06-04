@@ -6,9 +6,9 @@ import (
 	"github.com/rs/xid"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/activity"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	"github.com/keyrotate/netbird/management/server/status"
 )
 
 type GroupLinkError struct {

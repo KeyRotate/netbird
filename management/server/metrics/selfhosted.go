@@ -14,8 +14,8 @@ import (
 	"github.com/hashicorp/go-version"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server"
-	nbversion "github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/management/server"
+	nbversion "github.com/keyrotate/netbird/version"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 )
 
 func TestPeer_LoginExpired(t *testing.T) {

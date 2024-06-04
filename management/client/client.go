@@ -6,8 +6,8 @@ import (
 
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/management/proto"
+	"github.com/keyrotate/netbird/client/system"
+	"github.com/keyrotate/netbird/management/proto"
 )
 
 type Client interface {

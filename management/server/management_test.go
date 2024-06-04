@@ -19,14 +19,14 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/netbirdio/netbird/encryption"
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/account"
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/group"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/encryption"
+	mgmtProto "github.com/keyrotate/netbird/management/proto"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/account"
+	"github.com/keyrotate/netbird/management/server/activity"
+	"github.com/keyrotate/netbird/management/server/group"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/util"
 )
 
 const (

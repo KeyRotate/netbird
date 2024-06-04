@@ -30,10 +30,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/system"
+	"github.com/keyrotate/netbird/version"
 )
 
 const (

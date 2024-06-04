@@ -1,6 +1,6 @@
 package group
 
-import "github.com/netbirdio/netbird/management/server/integration_reference"
+import "github.com/keyrotate/netbird/management/server/integration_reference"
 
 const (
 	GroupIssuedAPI         = "api"

@@ -12,7 +12,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/internal/peer"
 )
 
 type upstreamResolverIOS struct {

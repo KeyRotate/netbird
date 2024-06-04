@@ -9,18 +9,18 @@ import (
 	"strings"
 	"testing"
 
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	"github.com/netbirdio/netbird/management/server/http/api"
-	"github.com/netbirdio/netbird/management/server/status"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	"github.com/keyrotate/netbird/management/server/http/api"
+	"github.com/keyrotate/netbird/management/server/status"
 
 	"github.com/gorilla/mux"
 
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
 
 	"github.com/magiconair/properties/assert"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/mock_server"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/mock_server"
 )
 
 func initPoliciesTestData(policies ...*server.Policy) *Policies {

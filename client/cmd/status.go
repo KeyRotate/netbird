@@ -16,12 +16,12 @@ import (
 	"google.golang.org/grpc/status"
 	"gopkg.in/yaml.v3"
 
-	"github.com/netbirdio/netbird/client/anonymize"
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/util"
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/client/anonymize"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/proto"
+	"github.com/keyrotate/netbird/util"
+	"github.com/keyrotate/netbird/version"
 )
 
 type peerStateDetailOutput struct {

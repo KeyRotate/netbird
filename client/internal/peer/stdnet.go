@@ -3,7 +3,7 @@
 package peer
 
 import (
-	"github.com/netbirdio/netbird/client/internal/stdnet"
+	"github.com/keyrotate/netbird/client/internal/stdnet"
 )
 
 func (conn *Conn) newStdNet() (*stdnet.Net, error) {

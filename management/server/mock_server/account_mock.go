@@ -7,15 +7,15 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/group"
-	"github.com/netbirdio/netbird/management/server/idp"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/posture"
-	"github.com/netbirdio/netbird/route"
+	nbdns "github.com/keyrotate/netbird/dns"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/activity"
+	"github.com/keyrotate/netbird/management/server/group"
+	"github.com/keyrotate/netbird/management/server/idp"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/posture"
+	"github.com/keyrotate/netbird/route"
 )
 
 type MockAccountManager struct {

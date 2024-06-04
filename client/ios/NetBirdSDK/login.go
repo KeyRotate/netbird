@@ -10,9 +10,9 @@ import (
 	"google.golang.org/grpc/codes"
 	gstatus "google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/cmd"
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/system"
+	"github.com/keyrotate/netbird/client/cmd"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/system"
 )
 
 // SSOListener is async listener for mobile framework

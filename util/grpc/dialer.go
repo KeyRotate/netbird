@@ -9,7 +9,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	nbnet "github.com/netbirdio/netbird/util/net"
+	nbnet "github.com/keyrotate/netbird/util/net"
 )
 
 func WithCustomDialer() grpc.DialOption {
@@ -26,7 +26,6 @@ func WithCustomDialer() grpc.DialOption {
 				return dialer.DialContext(ctx, "tcp", addr)
 			}
 		}
-
 
 		conn, err := nbnet.NewDialer().DialContext(ctx, "tcp", addr)
 		if err != nil {

@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/internal/routeselector"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/route"
+	firewall "github.com/keyrotate/netbird/client/firewall/manager"
+	"github.com/keyrotate/netbird/client/internal/listener"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/internal/routeselector"
+	"github.com/keyrotate/netbird/iface"
+	"github.com/keyrotate/netbird/route"
 )
 
 // MockManager is the mock instance of a route manager

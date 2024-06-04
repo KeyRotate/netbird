@@ -8,15 +8,15 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/dns"
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/internal/stdnet"
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/formatter"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/util/net"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/internal/dns"
+	"github.com/keyrotate/netbird/client/internal/listener"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/internal/stdnet"
+	"github.com/keyrotate/netbird/client/system"
+	"github.com/keyrotate/netbird/formatter"
+	"github.com/keyrotate/netbird/iface"
+	"github.com/keyrotate/netbird/util/net"
 )
 
 // ConnectionListener export internal Listener for mobile

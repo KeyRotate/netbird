@@ -9,26 +9,26 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/netbird/management/server/activity"
+	"github.com/keyrotate/netbird/management/server/activity"
 
-	"github.com/netbirdio/netbird/client/system"
+	"github.com/keyrotate/netbird/client/system"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/netbirdio/management-integrations/integrations"
 
-	"github.com/netbirdio/netbird/encryption"
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	mgmt "github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/mock_server"
+	"github.com/keyrotate/netbird/encryption"
+	mgmtProto "github.com/keyrotate/netbird/management/proto"
+	mgmt "github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/mock_server"
 
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/util"
 )
 
 const ValidKey = "A2C8E62B-38F5-4553-B31E-DD66C696CEBB"

@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/martian/v3/log"
 
-	"github.com/netbirdio/netbird/management/server/account"
+	"github.com/keyrotate/netbird/management/server/account"
 )
 
 // UpdateIntegratedValidatorGroups updates the integrated validator groups for a specified account.

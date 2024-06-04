@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/util"
 )
 
 var TurnTestHost = &Host{

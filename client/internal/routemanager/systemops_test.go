@@ -19,7 +19,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/netbirdio/netbird/iface"
+	"github.com/keyrotate/netbird/iface"
 )
 
 type dialer interface {

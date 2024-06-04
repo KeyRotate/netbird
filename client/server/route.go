@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/route"
+	"github.com/keyrotate/netbird/client/proto"
+	"github.com/keyrotate/netbird/route"
 )
 
 type selectRoute struct {

@@ -16,9 +16,9 @@ import (
 	"github.com/pion/transport/v3"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/ebpf"
-	ebpfMgr "github.com/netbirdio/netbird/client/internal/ebpf/manager"
-	nbnet "github.com/netbirdio/netbird/util/net"
+	"github.com/keyrotate/netbird/client/internal/ebpf"
+	ebpfMgr "github.com/keyrotate/netbird/client/internal/ebpf/manager"
+	nbnet "github.com/keyrotate/netbird/util/net"
 )
 
 // WGEBPFProxy definition for proxy with EBPF support

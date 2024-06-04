@@ -11,20 +11,20 @@ import (
 	"testing"
 	"time"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	"github.com/netbirdio/netbird/management/server/testutil"
+	nbdns "github.com/keyrotate/netbird/dns"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	"github.com/keyrotate/netbird/management/server/testutil"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	route2 "github.com/netbirdio/netbird/route"
+	route2 "github.com/keyrotate/netbird/route"
 
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/status"
 
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/util"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/util"
 )
 
 func TestSqlite_NewStore(t *testing.T) {

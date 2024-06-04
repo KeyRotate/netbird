@@ -14,7 +14,7 @@ import (
 	"fyne.io/fyne/v2/widget"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/proto"
 )
 
 func (s *serviceClient) showRoutesUI() {

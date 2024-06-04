@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/iface"
+	"github.com/keyrotate/netbird/util"
 )
 
 func TestLogin(t *testing.T) {

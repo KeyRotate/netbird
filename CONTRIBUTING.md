@@ -127,7 +127,7 @@ checked out and set up:
 4. Add the original NetBird repository as `upstream` to your forked repository
 
    ```
-   git remote add upstream https://github.com/netbirdio/netbird.git
+   git remote add upstream https://github.com/keyrotate/netbird.git
    ```
 
 5. Install all Go dependencies:
@@ -289,7 +289,7 @@ As a critical network service and open-source project, we must enforce a few thi
 
 NetBird project is composed of 3 main repositories:
 - NetBird: This repository, which contains the code for the agents and control plane services.
-- Dashboard: https://github.com/netbirdio/dashboard, contains the Administration UI for the management service
+- Dashboard: https://github.com/keyrotate/dashboard, contains the Administration UI for the management service
 - Documentations: https://github.com/netbirdio/docs, contains the documentation from https://netbird.io/docs
 
 ## Contributor License Agreement

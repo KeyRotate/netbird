@@ -16,12 +16,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/encryption"
-	"github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	internalStatus "github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/management/server/telemetry"
+	"github.com/keyrotate/netbird/encryption"
+	"github.com/keyrotate/netbird/management/proto"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	internalStatus "github.com/keyrotate/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/telemetry"
 )
 
 // GRPCServer an instance of a Management gRPC API server

@@ -9,8 +9,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
+	"github.com/keyrotate/netbird/management/server/activity"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
 )
 
 func TestDefaultAccountManager_SaveSetupKey(t *testing.T) {

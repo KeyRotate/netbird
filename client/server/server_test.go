@@ -12,13 +12,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/signal/proto"
-	signalServer "github.com/netbirdio/netbird/signal/server"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	mgmtProto "github.com/keyrotate/netbird/management/proto"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/activity"
+	"github.com/keyrotate/netbird/signal/proto"
+	signalServer "github.com/keyrotate/netbird/signal/server"
 )
 
 var (

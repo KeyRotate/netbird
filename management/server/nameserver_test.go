@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbdns "github.com/keyrotate/netbird/dns"
+	"github.com/keyrotate/netbird/management/server/activity"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 )
 
 const (

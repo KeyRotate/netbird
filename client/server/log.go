@@ -3,7 +3,7 @@ package server
 import (
 	"strings"
 
-	"github.com/netbirdio/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/proto"
 )
 
 func ParseLogLevel(level string) proto.LogLevel {

@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/client/server"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/server"
 )
 
 var debugCmd = &cobra.Command{

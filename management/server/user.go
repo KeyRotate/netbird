@@ -8,12 +8,12 @@ import (
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/idp"
-	"github.com/netbirdio/netbird/management/server/integration_reference"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/activity"
+	"github.com/keyrotate/netbird/management/server/idp"
+	"github.com/keyrotate/netbird/management/server/integration_reference"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/status"
 )
 
 const (

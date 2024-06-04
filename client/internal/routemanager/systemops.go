@@ -15,9 +15,9 @@ import (
 	"github.com/libp2p/go-netroute"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/iface"
-	nbnet "github.com/netbirdio/netbird/util/net"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/iface"
+	nbnet "github.com/keyrotate/netbird/util/net"
 )
 
 var splitDefaultv4_1 = netip.PrefixFrom(netip.IPv4Unspecified(), 1)

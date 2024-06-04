@@ -8,8 +8,8 @@ import (
 	"google.golang.org/grpc/codes"
 	gstatus "google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/internal/relay"
-	"github.com/netbirdio/netbird/iface"
+	"github.com/keyrotate/netbird/client/internal/relay"
+	"github.com/keyrotate/netbird/iface"
 )
 
 // State contains the latest state of a peer

@@ -11,9 +11,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/client/ssh"
-	mgmProto "github.com/netbirdio/netbird/management/proto"
+	firewall "github.com/keyrotate/netbird/client/firewall/manager"
+	"github.com/keyrotate/netbird/client/ssh"
+	mgmProto "github.com/keyrotate/netbird/management/proto"
 )
 
 // Manager is a ACL rules manager

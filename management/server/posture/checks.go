@@ -7,9 +7,9 @@ import (
 	"github.com/hashicorp/go-version"
 	"github.com/rs/xid"
 
-	"github.com/netbirdio/netbird/management/server/http/api"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/http/api"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/status"
 )
 
 const (

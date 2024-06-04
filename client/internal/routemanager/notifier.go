@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/route"
+	"github.com/keyrotate/netbird/client/internal/listener"
+	"github.com/keyrotate/netbird/route"
 )
 
 type notifier struct {

@@ -7,12 +7,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/http/api"
-	"github.com/netbirdio/netbird/management/server/http/util"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	"github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/route"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/http/api"
+	"github.com/keyrotate/netbird/management/server/http/util"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
+	"github.com/keyrotate/netbird/management/server/status"
+	"github.com/keyrotate/netbird/route"
 )
 
 // RoutesHandler is the routes handler of the account

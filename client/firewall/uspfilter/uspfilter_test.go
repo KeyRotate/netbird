@@ -10,8 +10,8 @@ import (
 	"github.com/google/gopacket/layers"
 	"github.com/stretchr/testify/require"
 
-	fw "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/iface"
+	fw "github.com/keyrotate/netbird/client/firewall/manager"
+	"github.com/keyrotate/netbird/iface"
 )
 
 type IFaceMock struct {

@@ -1,7 +1,7 @@
 package NetBirdSDK
 
 import (
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/util"
 )
 
 // InitializeLog initializes the log file.

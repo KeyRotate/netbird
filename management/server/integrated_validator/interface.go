@@ -1,9 +1,9 @@
 package integrated_validator
 
 import (
-	"github.com/netbirdio/netbird/management/server/account"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/account"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 )
 
 // IntegratedValidator interface exists to avoid the circle dependencies

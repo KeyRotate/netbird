@@ -10,8 +10,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/util"
 )
 
 var shortDown = "Rollback SQLite store to JSON file store. Please make a backup of the SQLite file before running this command."

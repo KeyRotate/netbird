@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/netbirdio/netbird/management/server/posture"
+	"github.com/keyrotate/netbird/management/server/posture"
 )
 
 const (

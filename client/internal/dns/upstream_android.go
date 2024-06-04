@@ -8,8 +8,8 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
-	nbnet "github.com/netbirdio/netbird/util/net"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	nbnet "github.com/keyrotate/netbird/util/net"
 )
 
 type upstreamResolver struct {

@@ -7,11 +7,11 @@ import (
 	"github.com/miekg/dns"
 	log "github.com/sirupsen/logrus"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
+	nbdns "github.com/keyrotate/netbird/dns"
+	"github.com/keyrotate/netbird/management/proto"
+	"github.com/keyrotate/netbird/management/server/activity"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/status"
 )
 
 const defaultTTL = 300

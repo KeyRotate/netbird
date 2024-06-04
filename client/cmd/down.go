@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/util"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/netbirdio/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/proto"
 )
 
 var downCmd = &cobra.Command{

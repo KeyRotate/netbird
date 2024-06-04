@@ -3,7 +3,7 @@ package posture
 import (
 	"testing"
 
-	"github.com/netbirdio/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/peer"
 
 	"github.com/stretchr/testify/assert"
 )

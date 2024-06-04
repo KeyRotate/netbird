@@ -15,11 +15,11 @@ import (
 
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/netbirdio/netbird/encryption"
-	"github.com/netbirdio/netbird/signal/proto"
-	"github.com/netbirdio/netbird/signal/server"
-	"github.com/netbirdio/netbird/util"
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/encryption"
+	"github.com/keyrotate/netbird/signal/proto"
+	"github.com/keyrotate/netbird/signal/server"
+	"github.com/keyrotate/netbird/util"
+	"github.com/keyrotate/netbird/version"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

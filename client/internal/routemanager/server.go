@@ -1,6 +1,6 @@
 package routemanager
 
-import "github.com/netbirdio/netbird/route"
+import "github.com/keyrotate/netbird/route"
 
 type serverRouter interface {
 	updateRoutes(map[route.ID]*route.Route) error

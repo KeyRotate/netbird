@@ -13,7 +13,7 @@ import (
 	"github.com/google/nftables/expr"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/firewall/manager"
+	"github.com/keyrotate/netbird/client/firewall/manager"
 )
 
 const (

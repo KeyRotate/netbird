@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/exp/maps"
 
-	route "github.com/netbirdio/netbird/route"
+	route "github.com/keyrotate/netbird/route"
 )
 
 type RouteSelector struct {

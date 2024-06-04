@@ -21,10 +21,10 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/encryption"
-	"github.com/netbirdio/netbird/management/proto"
-	nbgrpc "github.com/netbirdio/netbird/util/grpc"
+	"github.com/keyrotate/netbird/client/system"
+	"github.com/keyrotate/netbird/encryption"
+	"github.com/keyrotate/netbird/management/proto"
+	nbgrpc "github.com/keyrotate/netbird/util/grpc"
 )
 
 const ConnectTimeout = 10 * time.Second

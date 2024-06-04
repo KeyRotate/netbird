@@ -17,14 +17,14 @@ import (
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/logger"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/server/account"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/posture"
-	"github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/management/server/telemetry"
-	"github.com/netbirdio/netbird/route"
+	nbdns "github.com/keyrotate/netbird/dns"
+	"github.com/keyrotate/netbird/management/server/account"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/posture"
+	"github.com/keyrotate/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/telemetry"
+	"github.com/keyrotate/netbird/route"
 )
 
 // SqlStore represents an account storage backed by a Sql DB persisted to disk

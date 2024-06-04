@@ -7,7 +7,7 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/version"
 )
 
 // GetInfo retrieves and parses the system information

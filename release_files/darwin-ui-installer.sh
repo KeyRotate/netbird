@@ -15,7 +15,7 @@ fi
 NB_BIN=$(which netbird)
 if [ -z "$NB_BIN" ]
 then
-  echo "Netbird daemon is not installed. Please run: brew install netbirdio/tap/netbird"
+  echo "Netbird daemon is not installed. Please run: brew install keyrotate/tap/netbird"
   exit 1
 fi
 NB_UI_VERSION=$1
@@ -25,7 +25,7 @@ then
   echo "Netbird's daemon is running with a different version than the Netbird's UI:"
   echo "Netbird UI Version: $NB_UI_VERSION"
   echo "Netbird Daemon Version: $NB_VERSION"
-  echo "Please run: brew install netbirdio/tap/netbird"
+  echo "Please run: brew install keyrotate/tap/netbird"
   echo "to update it"
 fi
 

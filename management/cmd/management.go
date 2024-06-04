@@ -34,17 +34,17 @@ import (
 
 	"github.com/netbirdio/management-integrations/integrations"
 
-	"github.com/netbirdio/netbird/encryption"
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/geolocation"
-	httpapi "github.com/netbirdio/netbird/management/server/http"
-	"github.com/netbirdio/netbird/management/server/idp"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	"github.com/netbirdio/netbird/management/server/metrics"
-	"github.com/netbirdio/netbird/management/server/telemetry"
-	"github.com/netbirdio/netbird/util"
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/encryption"
+	mgmtProto "github.com/keyrotate/netbird/management/proto"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/geolocation"
+	httpapi "github.com/keyrotate/netbird/management/server/http"
+	"github.com/keyrotate/netbird/management/server/idp"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
+	"github.com/keyrotate/netbird/management/server/metrics"
+	"github.com/keyrotate/netbird/management/server/telemetry"
+	"github.com/keyrotate/netbird/util"
+	"github.com/keyrotate/netbird/version"
 )
 
 // ManagementLegacyPort is the port that was used before by the Management gRPC server.

@@ -243,9 +243,9 @@ install_netbird() {
             brew unlink wiretrustee
         fi
 
-        brew install netbirdio/tap/netbird
+        brew install keyrotate/tap/netbird
         if ! $SKIP_UI_APP; then
-            brew install --cask netbirdio/tap/netbird-ui
+            brew install --cask keyrotate/tap/netbird-ui
         fi
     ;;
     *)

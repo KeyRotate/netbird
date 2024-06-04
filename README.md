@@ -10,10 +10,10 @@
   <img width="234" src="docs/media/logo-full.png"/>
 </p>
   <p>
-     <a href="https://github.com/netbirdio/netbird/blob/main/LICENSE">
+     <a href="https://github.com/keyrotate/netbird/blob/main/LICENSE">
        <img src="https://img.shields.io/badge/license-BSD--3-blue" />
      </a> 
-   <a href="https://www.codacy.com/gh/netbirdio/netbird/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=netbirdio/netbird&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/e3013d046aec44cdb7462c8673b00976"/></a>
+   <a href="https://www.codacy.com/gh/keyrotate/netbird/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=keyrotate/netbird&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/e3013d046aec44cdb7462c8673b00976"/></a>
     <br>
     <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-vrahf41g-ik1v7fV8du6t0RwxSrJ96A">
         <img src="https://img.shields.io/badge/slack-@netbird-red.svg?logo=slack"/>
@@ -45,14 +45,14 @@
 ### Open-Source Network Security in a Single Platform
 
 
-![netbird_2](https://github.com/netbirdio/netbird/assets/700848/46bc3b73-508d-4a0e-bb9a-f465d68646ab)
+![netbird_2](https://github.com/keyrotate/netbird/assets/700848/46bc3b73-508d-4a0e-bb9a-f465d68646ab)
 
 
 ### Key features
 
 | Connectivity                                                                                                                 | Management                                                                                               | Security                                                                                                                              | Automation                                                                                                                               | Platforms                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <ul><li> - \[x] Kernel WireGuard </ul></li>                                                                                  | <ul><li> - \[x] [Admin Web UI](https://github.com/netbirdio/dashboard) </ul></li>                        | <ul><li> - \[x] [SSO & MFA support](https://docs.netbird.io/how-to/installation#running-net-bird-with-sso-login) </ul></li>           | <ul><li> - \[x] [Public API](https://docs.netbird.io/api) </ul></li>                                                                     | <ul><li> - \[x] Linux </ul></li>                                                        |
+| <ul><li> - \[x] Kernel WireGuard </ul></li>                                                                                  | <ul><li> - \[x] [Admin Web UI](https://github.com/keyrotate/dashboard) </ul></li>                        | <ul><li> - \[x] [SSO & MFA support](https://docs.netbird.io/how-to/installation#running-net-bird-with-sso-login) </ul></li>           | <ul><li> - \[x] [Public API](https://docs.netbird.io/api) </ul></li>                                                                     | <ul><li> - \[x] Linux </ul></li>                                                        |
 | <ul><li> - \[x] Peer-to-peer connections </ul></li>                                                                          | <ul><li> - \[x] Auto peer discovery and configuration </ul></li>                                         | <ul><li> - \[x] [Access control - groups & rules](https://docs.netbird.io/how-to/manage-network-access) </ul></li>                    | <ul><li> - \[x] [Setup keys for bulk network provisioning](https://docs.netbird.io/how-to/register-machines-using-setup-keys) </ul></li> | <ul><li> - \[x] Mac </ul></li>                                                          |
 | <ul><li> - \[x] Connection relay fallback </ul></li>                                                                         | <ul><li> - \[x] [IdP integrations](https://docs.netbird.io/selfhosted/identity-providers) </ul></li>     | <ul><li> - \[x] [Activity logging](https://docs.netbird.io/how-to/monitor-system-and-network-activity) </ul></li>                     | <ul><li> - \[x] [Self-hosting quickstart script](https://docs.netbird.io/selfhosted/selfhosted-quickstart) </ul></li>                    | <ul><li> - \[x] Windows </ul></li>                                                      |
 | <ul><li> - \[x] [Routes to external networks](https://docs.netbird.io/how-to/routing-traffic-to-private-networks) </ul></li> | <ul><li> - \[x] [Private DNS](https://docs.netbird.io/how-to/manage-dns-in-your-network) </ul></li>      | <ul><li> - \[x] [Device posture checks](https://docs.netbird.io/how-to/manage-posture-checks) </ul></li>                              | <ul><li> - \[x] IdP groups sync with JWT </ul></li>                                                                                      | <ul><li> - \[x] Android </ul></li>                                                      |
@@ -87,7 +87,7 @@ Follow the [Advanced guide with a custom identity provider](https://docs.netbird
 **Steps**
 - Download and run the installation script:
 ```bash
-export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbirdio/netbird/releases/latest/download/getting-started-with-zitadel.sh | bash
+export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/keyrotate/netbird/releases/latest/download/getting-started-with-zitadel.sh | bash
 ```
 - Once finished, you can manage the resources via `docker-compose`
 
@@ -112,7 +112,7 @@ See a complete [architecture overview](https://docs.netbird.io/about-netbird/how
 -  [NetBird ansible collection by Dominion Solutions](https://galaxy.ansible.com/ui/repo/published/dominion_solutions/netbird/)
 
 **Note**: The `main` branch may be in an *unstable or even broken state* during development.
-For stable versions, see [releases](https://github.com/netbirdio/netbird/releases).
+For stable versions, see [releases](https://github.com/keyrotate/netbird/releases).
 
 ### Support acknowledgement
 

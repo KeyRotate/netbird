@@ -4,8 +4,8 @@ import (
 	"net/netip"
 	"net/url"
 
-	"github.com/netbirdio/netbird/management/server/idp"
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/management/server/idp"
+	"github.com/keyrotate/netbird/util"
 )
 
 type (

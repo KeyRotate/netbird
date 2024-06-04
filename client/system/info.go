@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/version"
 )
 
 // DeviceNameCtxKey context key for device name

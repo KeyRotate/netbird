@@ -8,13 +8,13 @@ import (
 	"github.com/gorilla/mux"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	"github.com/netbirdio/netbird/management/server/http/api"
-	"github.com/netbirdio/netbird/management/server/http/util"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	"github.com/keyrotate/netbird/management/server/http/api"
+	"github.com/keyrotate/netbird/management/server/http/util"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/status"
 )
 
 // PeersHandler is a handler that returns peers of the account

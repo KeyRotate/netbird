@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc/codes"
 	gstatus "google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/system"
+	"github.com/keyrotate/netbird/iface"
+	"github.com/keyrotate/netbird/util"
 )
 
 const (

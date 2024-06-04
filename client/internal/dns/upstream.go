@@ -14,7 +14,7 @@ import (
 	"github.com/miekg/dns"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/internal/peer"
 )
 
 const (

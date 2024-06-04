@@ -11,8 +11,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/client/firewall/test"
+	firewall "github.com/keyrotate/netbird/client/firewall/manager"
+	"github.com/keyrotate/netbird/client/firewall/test"
 )
 
 func isIptablesSupported() bool {

@@ -14,7 +14,7 @@ import (
 	"golang.org/x/net/route"
 	"golang.org/x/sys/unix"
 
-	"github.com/netbirdio/netbird/client/internal/routemanager"
+	"github.com/keyrotate/netbird/client/internal/routemanager"
 )
 
 func checkChange(ctx context.Context, nexthopv4 netip.Addr, intfv4 *net.Interface, nexthopv6 netip.Addr, intfv6 *net.Interface, callback func()) error {

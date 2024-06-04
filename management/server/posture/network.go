@@ -5,7 +5,7 @@ import (
 	"net/netip"
 	"slices"
 
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 )
 
 type PeerNetworkRangeCheck struct {

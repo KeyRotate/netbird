@@ -3,7 +3,7 @@ package route
 import (
 	"net/netip"
 
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/status"
 )
 
 // Windows has some limitation regarding metric size that differ from Unix-like systems.

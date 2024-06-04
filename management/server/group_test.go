@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	nbgroup "github.com/netbirdio/netbird/management/server/group"
-	"github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/route"
+	nbdns "github.com/keyrotate/netbird/dns"
+	nbgroup "github.com/keyrotate/netbird/management/server/group"
+	"github.com/keyrotate/netbird/management/server/status"
+	"github.com/keyrotate/netbird/route"
 )
 
 const (

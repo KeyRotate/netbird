@@ -9,10 +9,10 @@ import (
 	"github.com/c-robinson/iplib"
 	"github.com/rs/xid"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/route"
+	nbdns "github.com/keyrotate/netbird/dns"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/status"
+	"github.com/keyrotate/netbird/route"
 )
 
 const (

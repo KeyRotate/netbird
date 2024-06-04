@@ -8,12 +8,12 @@ import (
 	"github.com/gorilla/mux"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/http/api"
-	"github.com/netbirdio/netbird/management/server/http/util"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/keyrotate/netbird/management/server/http/api"
+	"github.com/keyrotate/netbird/management/server/http/util"
+	"github.com/keyrotate/netbird/management/server/status"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
 )
 
 // UsersHandler is a handler that returns users of the account

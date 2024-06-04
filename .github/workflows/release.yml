@@ -63,7 +63,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: docker/login-action@v1
         with:
-          username: netbirdio
+          username: keyrotate
           password: ${{ secrets.DOCKER_TOKEN }}
       - name: Install OS build dependencies
         run: sudo apt update && sudo apt install -y -q gcc-arm-linux-gnueabihf gcc-aarch64-linux-gnu
@@ -230,7 +230,7 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Sign windows bin and installer
-          repo: netbirdio/sign-pipelines
+          repo: keyrotate/sign-pipelines
           ref: ${{ env.SIGN_PIPE_VER }}
           token: ${{ secrets.SIGN_GITHUB_TOKEN }}
           inputs: '{ "tag": "${{ github.ref }}" }'
@@ -244,7 +244,7 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Sign darwin ui app with dispatch
-          repo: netbirdio/sign-pipelines
+          repo: keyrotate/sign-pipelines
           ref: ${{ env.SIGN_PIPE_VER }}
           token: ${{ secrets.SIGN_GITHUB_TOKEN }}
           inputs: '{ "tag": "${{ github.ref }}" }'

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/internal/peer"
 )
 
 type SessionWatcher struct {

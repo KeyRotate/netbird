@@ -5,7 +5,7 @@ import (
 	"net/netip"
 	"strings"
 
-	nbdns "github.com/netbirdio/netbird/dns"
+	nbdns "github.com/keyrotate/netbird/dns"
 )
 
 type hostManager interface {

@@ -15,15 +15,15 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/netbirdio/netbird/client/internal/stdnet"
-	"github.com/netbirdio/netbird/client/internal/wgproxy"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/iface/bind"
-	"github.com/netbirdio/netbird/route"
-	signal "github.com/netbirdio/netbird/signal/client"
-	sProto "github.com/netbirdio/netbird/signal/proto"
-	nbnet "github.com/netbirdio/netbird/util/net"
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/client/internal/stdnet"
+	"github.com/keyrotate/netbird/client/internal/wgproxy"
+	"github.com/keyrotate/netbird/iface"
+	"github.com/keyrotate/netbird/iface/bind"
+	"github.com/keyrotate/netbird/route"
+	signal "github.com/keyrotate/netbird/signal/client"
+	sProto "github.com/keyrotate/netbird/signal/proto"
+	nbnet "github.com/keyrotate/netbird/util/net"
+	"github.com/keyrotate/netbird/version"
 )
 
 const (

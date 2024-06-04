@@ -12,14 +12,14 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/exp/maps"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/auth"
-	"github.com/netbirdio/netbird/client/internal/dns"
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/formatter"
-	"github.com/netbirdio/netbird/route"
+	"github.com/keyrotate/netbird/client/internal"
+	"github.com/keyrotate/netbird/client/internal/auth"
+	"github.com/keyrotate/netbird/client/internal/dns"
+	"github.com/keyrotate/netbird/client/internal/listener"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/client/system"
+	"github.com/keyrotate/netbird/formatter"
+	"github.com/keyrotate/netbird/route"
 )
 
 // ConnectionListener export internal Listener for mobile

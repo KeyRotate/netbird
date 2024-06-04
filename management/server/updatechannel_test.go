@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/netbird/management/proto"
+	"github.com/keyrotate/netbird/management/proto"
 )
 
 //var peersUpdater *PeersUpdateManager

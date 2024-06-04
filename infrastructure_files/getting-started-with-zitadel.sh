@@ -719,7 +719,7 @@ services:
       - ./Caddyfile:/etc/caddy/Caddyfile
   #UI dashboard
   dashboard:
-    image: netbirdio/dashboard:latest
+    image: keyrotate/dashboard:latest
     restart: unless-stopped
     networks: [netbird]
     env_file:

@@ -14,7 +14,7 @@ import (
 	"golang.zx2c4.com/wireguard/device"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	nbnet "github.com/netbirdio/netbird/util/net"
+	nbnet "github.com/keyrotate/netbird/util/net"
 )
 
 type wgUSPConfigurer struct {

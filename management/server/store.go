@@ -12,12 +12,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 
-	"github.com/netbirdio/netbird/management/server/migration"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/posture"
-	"github.com/netbirdio/netbird/management/server/telemetry"
-	"github.com/netbirdio/netbird/management/server/testutil"
-	"github.com/netbirdio/netbird/route"
+	"github.com/keyrotate/netbird/management/server/migration"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/posture"
+	"github.com/keyrotate/netbird/management/server/telemetry"
+	"github.com/keyrotate/netbird/management/server/testutil"
+	"github.com/keyrotate/netbird/route"
 )
 
 type Store interface {

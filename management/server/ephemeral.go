@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/activity"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 )
 
 const (

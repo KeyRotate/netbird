@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/route"
+	"github.com/keyrotate/netbird/client/internal/peer"
+	"github.com/keyrotate/netbird/iface"
+	"github.com/keyrotate/netbird/route"
 )
 
 // send 5 routes, one for server and 4 for clients, one normal and 2 HA and one small

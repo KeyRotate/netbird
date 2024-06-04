@@ -12,15 +12,15 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/netbirdio/netbird/management/server/http/api"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	"github.com/keyrotate/netbird/management/server/http/api"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
+	"github.com/keyrotate/netbird/management/server/jwtclaims"
 
 	"github.com/magiconair/properties/assert"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/mock_server"
+	"github.com/keyrotate/netbird/management/server"
+	"github.com/keyrotate/netbird/management/server/mock_server"
 )
 
 const testPeerID = "test_peer"

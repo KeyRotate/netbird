@@ -6,7 +6,7 @@ import (
 
 	"github.com/miekg/dns"
 
-	nbdns "github.com/netbirdio/netbird/dns"
+	nbdns "github.com/keyrotate/netbird/dns"
 )
 
 func TestLocalResolver_ServeDNS(t *testing.T) {

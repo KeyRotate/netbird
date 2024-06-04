@@ -14,9 +14,9 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/client/server"
-	"github.com/netbirdio/netbird/util"
+	"github.com/keyrotate/netbird/client/proto"
+	"github.com/keyrotate/netbird/client/server"
+	"github.com/keyrotate/netbird/util"
 )
 
 func (p *program) Start(svc service.Service) error {

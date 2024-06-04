@@ -9,7 +9,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/routemanager"
+	"github.com/keyrotate/netbird/client/internal/routemanager"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"github.com/miekg/dns"
 	log "github.com/sirupsen/logrus"
 
-	nbdns "github.com/netbirdio/netbird/dns"
+	nbdns "github.com/keyrotate/netbird/dns"
 )
 
 type registrationMap map[string]struct{}

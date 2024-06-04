@@ -4,7 +4,7 @@ import (
 	"github.com/hashicorp/go-version"
 	log "github.com/sirupsen/logrus"
 
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbpeer "github.com/keyrotate/netbird/management/server/peer"
 )
 
 type NBVersionCheck struct {

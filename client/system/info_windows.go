@@ -11,9 +11,9 @@ import (
 	"github.com/yusufpapurcu/wmi"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/netbirdio/netbird/client/system/detect_cloud"
-	"github.com/netbirdio/netbird/client/system/detect_platform"
-	"github.com/netbirdio/netbird/version"
+	"github.com/keyrotate/netbird/client/system/detect_cloud"
+	"github.com/keyrotate/netbird/client/system/detect_platform"
+	"github.com/keyrotate/netbird/version"
 )
 
 type Win32_OperatingSystem struct {

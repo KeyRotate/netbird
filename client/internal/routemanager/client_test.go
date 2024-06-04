@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/netbird/route"
+	"github.com/keyrotate/netbird/route"
 )
 
 func TestGetBestrouteFromStatuses(t *testing.T) {
