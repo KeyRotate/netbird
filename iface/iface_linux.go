@@ -21,17 +21,17 @@ func NewWGIFace(iFaceName string, address string, wgPort int, wgPrivKey string, 
 	wgIFace := &WGIface{}
 
 	// move the kernel/usp/netstack preference evaluation to upper layer
-	if netstack.IsEnabled() {
-		wgIFace.tun = newTunNetstackDevice(iFaceName, wgAddress, wgPort, wgPrivKey, mtu, transportNet, netstack.ListenAddr())
-		wgIFace.userspaceBind = true
-		return wgIFace, nil
-	}
+	// if netstack.IsEnabled() {
+	// 	wgIFace.tun = newTunNetstackDevice(iFaceName, wgAddress, wgPort, wgPrivKey, mtu, transportNet, netstack.ListenAddr())
+	// 	wgIFace.userspaceBind = true
+	// 	return wgIFace, nil
+	// }
 
-	if WireGuardModuleIsLoaded() {
-		wgIFace.tun = newTunDevice(iFaceName, wgAddress, wgPort, wgPrivKey, mtu, transportNet)
-		wgIFace.userspaceBind = false
-		return wgIFace, nil
-	}
+	// if WireGuardModuleIsLoaded() {
+	// 	wgIFace.tun = newTunDevice(iFaceName, wgAddress, wgPort, wgPrivKey, mtu, transportNet)
+	// 	wgIFace.userspaceBind = false
+	// 	return wgIFace, nil
+	// }
 
 	if !tunModuleIsLoaded() {
 		return nil, fmt.Errorf("couldn't check or load tun module")
