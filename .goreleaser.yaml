@@ -162,7 +162,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/signal:{{ .Version }}-amd64
+      - keyrotate/signal:{{ .Version }}-amd64
     ids:
       - netbird-signal
     goarch: amd64
@@ -177,7 +177,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/signal:{{ .Version }}-arm64v8
+      - keyrotate/signal:{{ .Version }}-arm64v8
     ids:
       - netbird-signal
     goarch: arm64
@@ -192,7 +192,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/signal:{{ .Version }}-arm
+      - keyrotate/signal:{{ .Version }}-arm
     ids:
       - netbird-signal
     goarch: arm
@@ -208,7 +208,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/management:{{ .Version }}-amd64
+      - keyrotate/management:{{ .Version }}-amd64
     ids:
       - netbird-mgmt
     goarch: amd64
@@ -223,7 +223,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/management:{{ .Version }}-arm64v8
+      - keyrotate/management:{{ .Version }}-arm64v8
     ids:
       - netbird-mgmt
     goarch: arm64
@@ -238,7 +238,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/management:{{ .Version }}-arm
+      - keyrotate/management:{{ .Version }}-arm
     ids:
       - netbird-mgmt
     goarch: arm
@@ -254,7 +254,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/management:{{ .Version }}-debug-amd64
+      - keyrotate/management:{{ .Version }}-debug-amd64
     ids:
       - netbird-mgmt
     goarch: amd64
@@ -269,7 +269,7 @@ dockers:
       - "--label=org.opencontainers.image.version={{.Version}}"
       - "--label=maintainer=dev@netbird.io"
   - image_templates:
-      - netbirdio/management:{{ .Version }}-debug-arm64v8
+      - keyrotate/management:{{ .Version }}-debug-arm64v8
     ids:
       - netbird-mgmt
     goarch: arm64
@@ -285,7 +285,7 @@ dockers:
       - "--label=maintainer=dev@netbird.io"
 
   - image_templates:
-      - netbirdio/management:{{ .Version }}-debug-arm
+      - keyrotate/management:{{ .Version }}-debug-arm
     ids:
       - netbird-mgmt
     goarch: arm
@@ -313,42 +313,42 @@ docker_manifests:
       - keyrotate/netbird:{{ .Version }}-arm
       - keyrotate/netbird:{{ .Version }}-amd64
 
-  - name_template: netbirdio/signal:{{ .Version }}
+  - name_template: keyrotate/signal:{{ .Version }}
     image_templates:
-      - netbirdio/signal:{{ .Version }}-arm64v8
-      - netbirdio/signal:{{ .Version }}-arm
-      - netbirdio/signal:{{ .Version }}-amd64
+      - keyrotate/signal:{{ .Version }}-arm64v8
+      - keyrotate/signal:{{ .Version }}-arm
+      - keyrotate/signal:{{ .Version }}-amd64
 
-  - name_template: netbirdio/signal:latest
+  - name_template: keyrotate/signal:latest
     image_templates:
-      - netbirdio/signal:{{ .Version }}-arm64v8
-      - netbirdio/signal:{{ .Version }}-arm
-      - netbirdio/signal:{{ .Version }}-amd64
+      - keyrotate/signal:{{ .Version }}-arm64v8
+      - keyrotate/signal:{{ .Version }}-arm
+      - keyrotate/signal:{{ .Version }}-amd64
 
-  - name_template: netbirdio/management:{{ .Version }}
+  - name_template: keyrotate/management:{{ .Version }}
     image_templates:
-      - netbirdio/management:{{ .Version }}-arm64v8
-      - netbirdio/management:{{ .Version }}-arm
-      - netbirdio/management:{{ .Version }}-amd64
+      - keyrotate/management:{{ .Version }}-arm64v8
+      - keyrotate/management:{{ .Version }}-arm
+      - keyrotate/management:{{ .Version }}-amd64
 
-  - name_template: netbirdio/management:latest
+  - name_template: keyrotate/management:latest
     image_templates:
-      - netbirdio/management:{{ .Version }}-arm64v8
-      - netbirdio/management:{{ .Version }}-arm
-      - netbirdio/management:{{ .Version }}-amd64
+      - keyrotate/management:{{ .Version }}-arm64v8
+      - keyrotate/management:{{ .Version }}-arm
+      - keyrotate/management:{{ .Version }}-amd64
 
-  - name_template: netbirdio/management:debug-latest
+  - name_template: keyrotate/management:debug-latest
     image_templates:
-      - netbirdio/management:{{ .Version }}-debug-arm64v8
-      - netbirdio/management:{{ .Version }}-debug-arm
-      - netbirdio/management:{{ .Version }}-debug-amd64
+      - keyrotate/management:{{ .Version }}-debug-arm64v8
+      - keyrotate/management:{{ .Version }}-debug-arm
+      - keyrotate/management:{{ .Version }}-debug-amd64
 
 brews:
   -
     ids:
       - default
     tap:
-      owner: netbirdio
+      owner: keyrotate
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     commit_author:

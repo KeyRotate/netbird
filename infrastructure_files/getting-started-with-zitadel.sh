@@ -726,12 +726,12 @@ services:
       - ./dashboard.env
   # Signal
   signal:
-    image: netbirdio/signal:latest
+    image: keyrotate/signal:latest
     restart: unless-stopped
     networks: [netbird]
   # Management
   management:
-    image: netbirdio/management:latest
+    image: keyrotate/management:latest
     restart: unless-stopped
     networks: [netbird]
     volumes:

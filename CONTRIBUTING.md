@@ -290,7 +290,7 @@ As a critical network service and open-source project, we must enforce a few thi
 NetBird project is composed of 3 main repositories:
 - NetBird: This repository, which contains the code for the agents and control plane services.
 - Dashboard: https://github.com/keyrotate/dashboard, contains the Administration UI for the management service
-- Documentations: https://github.com/netbirdio/docs, contains the documentation from https://netbird.io/docs
+- Documentations: https://github.com/keyrotate/docs, contains the documentation from https://netbird.io/docs
 
 ## Contributor License Agreement
 

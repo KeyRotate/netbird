@@ -35,7 +35,7 @@ services:
 
   # Signal
   signal:
-    image: netbirdio/signal:$NETBIRD_SIGNAL_TAG
+    image: keyrotate/signal:$NETBIRD_SIGNAL_TAG
     restart: unless-stopped
     volumes:
       - $SIGNAL_VOLUMENAME:/var/lib/netbird
@@ -52,7 +52,7 @@ services:
 
   # Management
   management:
-    image: netbirdio/management:$NETBIRD_MANAGEMENT_TAG
+    image: keyrotate/management:$NETBIRD_MANAGEMENT_TAG
     restart: unless-stopped
     depends_on:
       - dashboard

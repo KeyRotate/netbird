@@ -5,7 +5,7 @@ set -e
 CONFIG_FOLDER="/etc/netbird"
 CONFIG_FILE="$CONFIG_FOLDER/install.conf"
 
-OWNER="netbirdio"
+OWNER="keyrotate"
 REPO="netbird"
 CLI_APP="netbird"
 UI_APP="netbird-ui"

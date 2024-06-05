@@ -24,12 +24,12 @@ Global Flags:
 
 We have packed the Signal server into docker image. You can pull the image from Docker Hub and execute it with the following commands:
 ````shell
-docker pull netbirdio/signal:latest
-docker run -d --name netbird-signal -p 10000:10000 netbirdio/signal:latest
+docker pull keyrotate/signal:latest
+docker run -d --name netbird-signal -p 10000:10000 keyrotate/signal:latest
 ````
 The default log-level is set to INFO, if you need you can change it using by updating the docker cmd as followed:
 ````shell
-docker run -d --name netbird-signal -p 10000:10000 netbirdio/signal:latest --log-level DEBUG
+docker run -d --name netbird-signal -p 10000:10000 keyrotate/signal:latest --log-level DEBUG
 ````
 ### Run with TLS (Let's Encrypt).
 By specifying the **--letsencrypt-domain** the daemon will handle SSL certificate request and configuration.
@@ -47,7 +47,7 @@ docker run -d --name netbird-signal \
 -p 10000:10000  \
 -p 443:443  \
 -v netbird-signal:/var/lib/netbird  \
-netbirdio/signal:latest \
+keyrotate/signal:latest \
 --letsencrypt-domain <YOUR-DOMAIN>
 ```
 ## For development purposes:

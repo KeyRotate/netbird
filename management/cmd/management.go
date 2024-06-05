@@ -32,7 +32,7 @@ import (
 
 	"github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/realip"
 
-	"github.com/netbirdio/management-integrations/integrations"
+	"github.com/keyrotate/management-integrations/integrations"
 
 	"github.com/keyrotate/netbird/encryption"
 	mgmtProto "github.com/keyrotate/netbird/management/proto"
