@@ -8,13 +8,13 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
 
-	"github.com/keyrotate/management-integrations/integrations"
 	s "github.com/keyrotate/netbird/management/server"
 	"github.com/keyrotate/netbird/management/server/geolocation"
 	"github.com/keyrotate/netbird/management/server/http/middleware"
 	"github.com/keyrotate/netbird/management/server/integrated_validator"
 	"github.com/keyrotate/netbird/management/server/jwtclaims"
 	"github.com/keyrotate/netbird/management/server/telemetry"
+	"github.com/netbirdio/management-integrations/integrations"
 )
 
 const apiPrefix = "/api"

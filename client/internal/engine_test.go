@@ -21,7 +21,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/keyrotate/management-integrations/integrations"
+	"github.com/netbirdio/management-integrations/integrations"
 
 	"github.com/keyrotate/netbird/client/internal/dns"
 	"github.com/keyrotate/netbird/client/internal/peer"
