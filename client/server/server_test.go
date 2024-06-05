@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/management-integrations/integrations"
+	"github.com/keyrotate/management-integrations/integrations"
 
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"

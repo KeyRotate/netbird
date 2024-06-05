@@ -13,7 +13,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/netbirdio/management-integrations/integrations"
+	"github.com/keyrotate/management-integrations/integrations"
 
 	clientProto "github.com/keyrotate/netbird/client/proto"
 	client "github.com/keyrotate/netbird/client/server"

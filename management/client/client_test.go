@@ -16,7 +16,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/netbirdio/management-integrations/integrations"
+	"github.com/keyrotate/management-integrations/integrations"
 
 	"github.com/keyrotate/netbird/encryption"
 	mgmtProto "github.com/keyrotate/netbird/management/proto"
